@@ -1,0 +1,317 @@
+
+@media only screen and (min-width: 601px) {
+    label,input,button,textarea{
+        font-family: sans-serif;
+        outline:none;
+    }
+
+    button{
+        cursor: pointer;
+    }
+
+    input{
+        cursor:text;
+    }
+
+    input[type=checkbox]{
+        width: 1.5vw;
+        height:1.5vw;
+    }
+
+    body{
+        /*background-color:rgb(235,235,235);*/
+        overflow: hidden;
+
+    }
+
+    input{
+        color: black;
+        background-color: white;
+        border: 0.2vw solid steelblue;
+        border-radius: 0.8vw;
+        text-align: center;
+    }
+
+    button{
+        font-weight: bold;
+        font-size: 2vw;
+        color:white;
+        border: 0.3vw solid black;
+        background-color:steelblue;
+        position: absolute;
+        border-radius: 0.8vw;
+    }
+
+    button:active{
+        color:steelblue;
+        background-color: rgb(235,235,235);
+    }
+
+    #titleDiv{
+        background-color:steelblue;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 7vw;
+        
+    }
+
+    #titleDiv label{
+        color:white;
+        font-weight: bold;
+        font-size:5vw;
+        position:absolute;
+        transform:translate(-50%,-50%);
+        top:50%;
+        left:50%;
+    }
+
+    .alert,.prompt,.confirm{
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 0.2vw solid black;
+        padding: 2vw;
+        z-index: 100;
+        top: 20vw;
+        background-color: #fefc83;
+        border-radius: 1vw;
+        width: 25vw;
+    }
+
+    .alert label,.prompt label ,.confirm label{
+
+        color:black;
+        font-weight: bold;
+    }
+
+    .alertButton,.okButton{
+
+        position:relative;
+        font-size: 1.4vw;
+        left: 50%;
+        transform: translateX(-50%);
+        float: left;
+
+    }
+
+    .alertText,.promptText,.confirmText{
+
+        position:relative;
+        text-align: center;
+        font-size: 1.5vw;
+        left: 50%;
+        transform: translateX(-50%);
+        float: left;  
+
+    }
+
+    .inputPrompt{
+
+        position: relative;
+        text-align: center;
+        font-size: 1.5vw;
+        background-color:white;
+        border: 0.2vw solid black;
+        width: 15vw;
+        border-radius: 0.5vw;
+        left: 50%;
+        transform: translateX(-50%);
+        float: left;
+    }
+
+
+
+
+    .blockDiv{
+
+        display:block;
+        position:absolute;
+        top:0;
+        left:0;
+        height: 100%;
+        width: 100%;
+        z-index:99;
+        background-color: black;
+        opacity:0.5;
+    }
+
+    .confirmButton{
+
+        position:relative;
+        font-size: 1.4vw;
+        float: left;
+
+    }
+
+
+    .backButton{
+
+        position:relative;
+        float: right;
+        font-size: 1.4vw;
+
+    }
+}
+
+/******************MOBILE**************/
+
+@media  screen and (max-width: 600px) {
+        
+    label,input,button,textarea{
+        font-family: sans-serif;
+        outline:none;
+    }
+
+    button{
+        cursor: pointer;
+    }
+
+    input{
+        cursor:text;
+    }
+
+    input[type=checkbox]{
+        width: 3vh;
+        height:3vh;
+    }
+
+    body{
+        /*background-color:rgb(235,235,235);*/
+        overflow: hidden;
+
+    }
+
+    input{
+        color: black;
+        background-color: white;
+        border: 0.5vh solid steelblue;
+        border-radius: 1.5vh;
+        text-align: center;
+    }
+
+    button{
+        font-weight: bold;
+        font-size: 4vh;
+        color:white;
+        border: 0.5vh solid black;
+        background-color:steelblue;
+        position: absolute;
+        border-radius: 1.5vh;
+    }
+
+    button:active{
+        color:steelblue;
+        background-color: rgb(235,235,235);
+    }
+
+    #titleDiv{
+        background-color:steelblue;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 15vh;
+        
+    }
+
+    #titleDiv label{
+        color:white;
+        font-weight: bold;
+        font-size:7vh;
+        position:absolute;
+        transform:translate(-50%,-50%);
+        top:50%;
+        left:50%;
+    }
+
+    .alert,.prompt,.confirm{
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 0.2vh solid black;
+        padding: 2vh;
+        z-index: 100;
+        top: 25vh;
+        background-color: #fefc83;
+        border-radius: 1vh;
+        width: 35vh;
+    }
+
+    .alert label,.prompt label ,.confirm label{
+
+        color:black;
+        font-weight: bold;
+    }
+
+    .alertButton,.okButton{
+
+        position:relative;
+        font-size: 2.5vh;
+        left: 50%;
+        transform: translateX(-50%);
+        float: left;
+
+    }
+
+    .alertText,.promptText,.confirmText{
+
+        position:relative;
+        text-align: center;
+        font-size: 2.5vh;
+        left: 50%;
+        transform: translateX(-50%);
+        float: left;  
+
+    }
+
+    .inputPrompt{
+
+        position: relative;
+        text-align: center;
+        font-size: 1.5vh;
+        background-color:white;
+        border: 0.2vh solid black;
+        width: 15vh;
+        border-radius: 0.5vh;
+        left: 50%;
+        transform: translateX(-50%);
+        float: left;
+    }
+
+
+
+
+    .blockDiv{
+
+        display:block;
+        position:absolute;
+        top:0;
+        left:0;
+        height: 100%;
+        width: 100%;
+        z-index:99;
+        background-color: black;
+        opacity:0.5;
+    }
+
+    .confirmButton{
+
+        position:relative;
+        font-size: 1.4vh;
+        float: left;
+
+    }
+
+
+    .backButton{
+
+        position:relative;
+        float: right;
+        font-size: 1.4vh;
+
+    }
+}

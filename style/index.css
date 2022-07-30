@@ -1,0 +1,290 @@
+
+body{
+    background-color:rgb(235,235,235);
+}
+
+@media only screen and (min-width: 601px) {
+    label{
+
+        font-weight: bold;
+        font-size: 2.5vw;
+        color: steelblue;
+    }
+
+    
+
+    #labelUser,#labelUserR{
+        position: absolute;
+        top: 14vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #user,#userR{
+        position: absolute;
+        top: 18vw;
+        font-size: 1.5vw;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20vw;
+
+    }
+
+    #labelPassw,#labelPasswR,#labelPasswRR{
+        position: absolute;
+        top: 22vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .countPassw,.countPasswR1,.countPasswR2{
+        position: absolute;
+        top: 26vw;
+        font-weight: bold;
+        font-size: 1.5vw;
+        color:grey;
+        left: 62%;
+        transform: translateX(-50%);
+        
+    }
+
+    .countPasswR1{
+        left:72vw;
+        top:18.5vw;
+    }
+
+    .countPasswR2{
+        left:72vw;
+        top:22.5vw;
+    }
+
+    #passw,#passwR,#passwRR{
+        position: absolute;
+        top: 26vw;
+        font-size: 1.5vw;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20vw;
+        
+    }
+
+    #labelUserR{
+        transform:none;
+        left:30vw;
+        top:14vw;
+    }
+
+    #userR{
+        transform:none;
+        left:50vw;
+        top:14.5vw;
+    }
+
+
+    #labelPasswR{
+        transform:none;
+        left:30vw;
+        top:18vw;
+    }
+
+    #passwR{
+        transform:none;
+        left:50vw;
+        top:18.5vw;
+    }
+
+    #labelPasswRR{
+        transform:none;
+        left:30vw;
+        top:22vw;
+    }
+
+    #passwRR{
+        transform:none;
+        left:50vw;
+        top:22.5vw;
+    }
+
+
+
+    #B_login{
+        top: 32vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #B_reg{
+        top: 40vw;
+        left: 2vw;
+        font-size: 2vw;
+    }
+
+    #B_ok{
+        top:32vw;
+        left:55%;
+    }
+
+    #B_back{
+        top:32vw;
+        left:38%;
+    }
+
+    #login,#reg{
+        width:100%;
+        left:100%;
+        top:0;
+        left:0;
+        position:absolute;
+    }
+}
+
+/**************************PER MOBILE*******************/
+
+
+@media only screen and (max-width: 600px) {
+
+    label{
+
+        font-weight: bold;
+        font-size: 3.5vh;
+        color: steelblue;
+    }
+
+
+
+    #labelUser,#labelUserR{
+        position: absolute;
+        top: 32vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #user,#userR{
+        position: absolute;
+        top: 38vh;
+        font-size: 2.5vh;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40vh;
+
+    }
+
+    #labelPassw,#labelPasswR,#labelPasswRR{
+        position: absolute;
+        top: 45vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .countPassw,.countPasswR1,.countPasswR2{
+        position: absolute;
+        top: 55vh;
+        font-weight: bold;
+        font-size: 3.5vh;
+        color:grey;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+    .countPasswR1{
+        left: 50%;
+        transform: translateX(-50%);
+        top:48vh;
+    }
+    .countPasswR2{
+        left: 50%;
+        transform: translateX(-50%);
+        top:62vh;
+    }
+
+    #passw,#passwR,#passwRR{
+        position: absolute;
+        top: 50vh;
+        font-size: 2.5vh;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40vh;
+        
+    }
+
+    #labelUserR{
+        transform:none;
+        left:50%;
+        transform: translateX(-50%);
+        top:27vh;
+    }
+
+    #userR{
+        transform:none;
+        left:50%;
+        transform: translateX(-50%);
+        top:32vh;
+    }
+
+
+    #labelPasswR{
+        transform:none;
+        left:50%;
+        transform: translateX(-50%);
+        top:38vh;
+    }
+
+    #passwR{
+        transform:none;
+        left:50%;
+        transform: translateX(-50%);
+        top:43vh;
+    }
+
+    #labelPasswRR{
+        transform:none;
+        left:50%;
+        transform: translateX(-50%);
+        top:52vh;
+    }
+
+    #passwRR{
+        transform:none;
+        left:50%;
+        transform: translateX(-50%);
+        top:57vh;
+    }
+
+
+
+    #B_login{
+        top: 68vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #B_reg{
+        top: 80vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #B_ok{
+        top:70vh;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+    #B_back{
+        top:80vh;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+    #login,#reg{
+        width:100%;
+        left:100%;
+        top:0;
+        left:0;
+        position:absolute;
+    }
+
+}

@@ -1,0 +1,278 @@
+body{
+    background-color:black;
+}
+
+@media  screen and (min-width: 601px) {
+        
+    img{
+        position:absolute;
+        z-index:-1;
+        width:100%;
+        top:5vw;
+        left:0;
+
+    }
+
+    #img{ display:block;}
+    #imgM{ display:none;}
+
+    .D{/*label*/
+        position: absolute;
+        font-size:2.5vw;
+        font-weight:bold;
+        color:black;
+        left:5vw;
+    }
+
+
+    .I{
+        
+        position:absolute;
+        font-size:2vw;
+        left:22vw;
+        background-color: lightgray;
+        width:22vw;
+    }
+
+    #D1{top:13vw;}
+    #D2{top:19vw;}
+    #D3{top:24vw;}
+    #D4{top:30vw;}
+
+    #I1{top:13vw;}
+    #I2{top:19vw;}
+    #I3{top:24vw;}
+    #I4{
+
+        color:black;
+        background-color: lightgray;
+        border: 0.2vw solid steelblue;
+        border-radius: 0.8vw;
+        text-align: left;
+        top: 29vw;
+        position: absolute;
+        overflow: auto;
+        width: 30vw;
+        height: 8vw;
+        padding: 0.5vw;
+        font-size: 1.5vw;
+
+    }
+
+    #B_esci{
+        top:8vw;
+        left:2vw;
+    }
+
+    #B_back{
+        top:40vw;
+        right:2vw;
+    }
+
+    #B_aggiorna{
+        top: 41vw;
+        left: 2vw;
+
+    }
+
+    #B_elimina{
+        top:8vw;
+        right:22vw;
+    }
+
+    #B_aggiornaSito{
+        top: 40vw;
+        left: 2vw;
+    }
+
+    #vediPassw{
+
+        position: absolute;
+        top: 24vw; 
+        left: 45vw;
+        background-image: url("../immagini/iconaOcchio.png");
+        width: 2.5vw;
+        height: 2.5vw;
+        background-size: contain;
+        border-radius: 0.5vw;
+    }
+
+    #B_copy{
+        background-image: url("../immagini/pencil.png");
+        background-size: contain;
+        top:24vw;
+        left:49vw;
+        width:2.5vw;
+        height:2.5vw;
+        position:absolute;
+        border-radius: 0.5vw;
+        border:0vw solid black;
+    }
+    #B_copy:active{
+        border:0.2vw solid black;
+    }
+    .tooltiptext{
+        width: 10vw;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 0.3vw;
+        padding: 0.5vw;
+        position: absolute;
+        z-index: 1;
+        bottom:3vw;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-family: sans-serif;
+    }
+
+    #vediPassw:hover .tooltiptext{
+        opacity:1;
+    }
+
+    #B_copy:hover .tooltiptext {
+        opacity:1;
+    }
+}
+
+/********MOBILE*************/
+
+
+@media  screen and (max-width: 600px) {
+        
+    img{
+        position:absolute;
+        z-index:-1;
+        width:100%;
+        top:5vh;
+        left:0;
+
+    }
+
+    #img{ display:none;}
+    #imgM{ display:block;}
+
+    .D{/*label*/
+        position: absolute;
+        font-size:2.5vh;
+        font-weight:bold;
+        color:black;
+        left:5vh;
+    }
+
+
+    .I{
+        
+        position:absolute;
+        font-size:2vh;
+        left:21vh;
+        background-color: lightgray;
+        width:22vh;
+    }
+
+    #D1{top:29vh;}
+    #D2{top:40vh;}
+    #D3{top:50.5vh;}
+    #D4{top:61.5vh;}
+
+    #I1{top:28.5vh;}
+    #I2{top:38.5vh;}
+    #I3{top:50vh;}
+    #I4{
+
+        color:black;
+        background-color: lightgray;
+        border: 0.2vh solid steelblue;
+        border-radius: 0.8vh;
+        text-align: left;
+        top: 61vh;
+        position: absolute;
+        overflow: auto;
+        width: 65%;
+        height: 13vh;
+        padding: 0.5vh;
+        font-size: 2.5vh;
+        left:14vh;
+
+    }
+
+    #B_esci{
+        top:16vh;
+        left:2vh;
+    }
+
+    #B_back{
+        top:82vh;
+        right:2vh;
+    }
+
+    #B_aggiorna{
+        top: 82vh;
+        left: 2vh;
+
+    }
+
+    #B_elimina{
+        top:16vh;
+        right:2vh;
+    }
+
+    #B_aggiornaSito{
+        top: 16vh;
+        right: 2vh;
+    }
+
+    #vediPassw{
+
+        position: absolute;
+        top: 54vh; 
+        left: 42vh;
+        background-image: url("../immagini/iconaOcchio.png");
+        width: 2.5vh;
+        height: 2.5vh;
+        background-size: contain;
+        border-radius: 0.5vh;
+    }
+
+    #B_copy{
+        background-image: url("../immagini/pencil.png");
+        background-size: contain;
+        top:54vh;
+        left: 22vh;
+        width:2.5vh;
+        height:2.5vh;
+        position:absolute;
+        border-radius: 0.5vh;
+        border:0vw solid black;
+    }
+    #B_copy:active{
+        border:0.2vw solid black;
+    }
+
+    .tooltiptext{
+        width: 10vh;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 0.3vh;
+        padding: 1vw;
+        position: absolute;
+        z-index: 1;
+        bottom:4vh;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-family: sans-serif;
+    }
+
+    #vediPassw:hover .tooltiptext{
+        opacity:1;
+    }
+
+    #B_copy:hover .tooltiptext {
+        opacity:1;
+    }
+}

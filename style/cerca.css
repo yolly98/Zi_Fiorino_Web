@@ -1,0 +1,231 @@
+body{
+    background-color: black;
+}
+
+@media  screen and (min-width: 601px) {
+        
+    img{
+        position:absolute;
+        z-index:-1;
+        width:100%;
+        top:5vw;
+        left:0;
+
+    }
+    
+
+    #img{
+        display:block;
+    }
+
+
+    #B_esci{
+        top:8vw;
+        left:2vw;
+        z-index:1;
+    }
+
+    #B_back{
+        top:40vw;
+        right:2vw;
+        z-index:1;
+    }
+
+    #B_cerca{
+        top: 8vw;
+        right: 21vw;
+        z-index: 1;
+        cursor: default;
+        background-color: transparent;
+        color: black;
+        font-size: 1.4vw;
+    }
+
+    #B_ricarica{
+        top:20vw;
+        left:67vw;
+        z-index:1;
+    }
+
+    #B_seleziona{
+        top:30vw;
+        left:67vw;
+        z-index:1;
+    }
+
+    #B_elimina{
+        display:none;
+        top:30vw;
+        left:67vw;
+        z-index:1;
+    }
+
+    #I_cerca{
+        position:absolute;
+        font-size: 1.5vw;
+        width:18vw;
+        top:8vw;
+        right:2vw;
+        z-index:1;
+    }
+
+    #h{/*scritta INDICE*/
+        position:absolute;
+        font-size:4vw;
+        font-weight:bold;
+        color:black;
+        top:9vw;
+        left:36vw;
+        z-index:1;
+    }
+
+    #list{
+
+        position: absolute;
+        width: 40.5vw;
+        height: 27.5vw;
+        top: 15vw;
+        left: 23vw;
+        z-index: 2;
+        background-color: transparent;
+        overflow: auto;
+    }
+
+
+    .passw{
+        position:relative;
+        width:93%;
+        font-size:1.5vw;
+        margin:1vw;
+        height:3vw;
+    }
+
+    .passwC{
+        position:relative;
+        margin-right:1vw;
+        float:left;
+    }
+
+    .passwL{
+        position:relative;
+        float:left;
+    }
+}
+
+/***********MOBILE*****************/
+
+@media  screen and (max-width: 600px) {
+        
+    img{
+        position:absolute;
+        z-index:-1;
+        width:100%;
+        top:5vh;
+        left:0;
+
+    }
+
+    #img{
+        display:none;
+    }
+
+    body{
+        background-color: rgb(235,239,145);
+    }
+
+    #B_esci{
+        top:16vh;
+        left:2vh;
+        z-index:1;
+    }
+
+    #B_back{
+        top:82vh;
+        z-index:1;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+    #B_cerca{
+        top: 17.2vh;
+        right: 22vh;
+        z-index: 1;
+        cursor: default;
+        background-color: transparent;
+        color: black;
+        font-size: 1.5vh;
+    }
+
+    #B_ricarica{
+        top:75vh;
+        left:2vh;
+        z-index:1;
+    }
+
+    #B_seleziona{
+        top:75vh;
+        right:2vh;
+        z-index:1;
+    }
+
+    #B_elimina{
+        display:none;
+        top:75vh;
+        right:2vh;
+        z-index:1;
+    }
+
+    #I_cerca{
+        position:absolute;
+        font-size: 2vh;
+        width:18vh;
+        top:17vh;
+        right:2vh;
+        z-index:1;
+    }
+
+    #h{/*scritta INDICE*/
+        position:absolute;
+        font-size:4vh;
+        font-weight:bold;
+        color:black;
+        top:25vh;
+        left:50%;
+        z-index:1;
+        transform:translateX(-50%);
+    }
+
+    #list{
+
+        position: absolute;
+        width: 43.5vh;
+        height: 41vh;
+        top: 32vh;
+        left: 52%;
+        transform: translateX(-50%);
+        z-index: 2;
+        background-color: transparent;
+        overflow: auto;
+        border:0.5vh solid black;
+    }
+
+
+    .passw{
+        position:relative;
+        width:93%;
+        font-size:3vh;
+        margin:1vh;
+        height:5vh;
+    }
+
+    .passwC{
+        position:relative;
+        margin-right:1vh;
+        float:left;
+    }
+
+    .passwL{
+        position:relative;
+        float:left;
+    }
+}

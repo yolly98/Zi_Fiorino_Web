@@ -1,0 +1,135 @@
+body{
+    background-color:rgb(235,235,235);
+}
+
+@media  screen and (min-width: 601px) {
+        
+    #B_esci{
+        top:8vw;
+        left:2vw;
+        z-index:1;
+    }
+
+    #B_back{
+        top:8vw;
+        right:2vw;
+        z-index:1;
+    }
+
+    #lT{
+        position:absolute;
+        color:blacK;
+        left:50%;
+        transform: translateX(-50%);
+        font-size:3vw;
+        font-weight: bold;
+        top:9vw;
+    }
+
+    #backupList{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80vw;
+        top: 14vw;
+        height: 30vw;
+        overflow: auto;
+    }
+
+    .backup{
+        position:relative;
+        width:98%;
+        margin-bottom:1vw;
+        height: 8vw;
+        background-color:lightgrey;
+    }
+
+    .lB{
+        position:absolute;
+        top:2vw;
+        left:50%;
+        transform:translateX(-50%);
+        color:blacK;
+        font-size:2vw;
+    }
+
+    .add{
+        position:absolute;
+        bottom:1vw;
+        left:2vw;
+    }
+
+    .imp{
+        position:absolute;
+        bottom:1vw;
+        right:2vw;
+    }
+}
+
+/****************MOBILE**************/
+
+@media  screen and (max-width: 600px) {
+
+    #B_esci{
+        top:16vh;
+        left:2vh;
+        z-index:1;
+    }
+    
+    #B_back{
+        top:16vh;
+        right:2vh;
+        z-index:1;
+    }
+    
+    #lT{
+        position:absolute;
+        color:blacK;
+        left:50%;
+        transform: translateX(-50%);
+        font-size:3vh;
+        font-weight: bold;
+        top:27vh;
+    }
+    
+    #backupList{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50vh;
+        top: 34vh;
+        height: 50vh;
+        overflow: auto;
+    }
+    
+    .backup{
+        position:relative;
+        width:98%;
+        margin-bottom:3vh;
+        height: 12vh;
+        background-color:lightgrey;
+    }
+    
+    .lB{
+        position:absolute;
+        top:2vh;
+        left:50%;
+        transform:translateX(-50%);
+        color:blacK;
+        font-size:3vh;
+    }
+    
+    .add{
+        position:absolute;
+        bottom:1vh;
+        left:2vh;
+        font-size: 2vh;
+    }
+    
+    .imp{
+        position:absolute;
+        bottom:1vh;
+        right:2vh;
+        font-size: 2vh;
+    }
+}

@@ -1,0 +1,191 @@
+body{
+    background-color:rgb(235,235,235);
+}
+
+@media  screen and (min-width: 601px) {
+
+    #imgLente{
+        left:20%;
+        top:14vw;
+    }
+
+    #imgLibro{
+        right:23%;
+        top:12vw;
+    }
+
+    #B_esci{
+        top:8vw;
+        left:2vw;
+        z-index:1;
+    }
+
+    #B_cambiaPassw{
+        top:8vw;
+        right:2vw;
+        z-index:1;
+    }
+
+    #B_info{
+        top:40vw;
+        left:2vw;
+        z-index:1;
+    }
+
+    #B_backup{
+        top:40vw;
+        right:2vw;
+        z-index:1;
+    }
+
+    #B_cerca{
+        top:35vw;
+        left:28%;
+        z-index:1;
+    }
+
+    #B_aggiungi{
+        top:35vw;
+        right:31%;
+        z-index:1;
+    }
+
+    img{
+        position:absolute;
+        width:26vw;
+        z-index:1;
+    }
+
+    #D_cambiaPassw{
+        width: 24vw;
+        padding: 2vw;
+        text-align: center;
+        border: 0.2vw solid black;
+        border-radius: 0.8vw;
+        background-color: rgb(235,235,235);
+        position: absolute;
+        top: 15vw;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index:2;
+    }
+
+    #D_cambiaPassw input{
+        
+        font-size: 1.5vw;
+        z-index:2;
+    }
+
+    #D_cambiaPassw label{
+        font-size:1.5vw;
+        font-weight: bold;
+    }
+    #D_cambiaPassw p{
+        margin:0;
+        padding:0;
+        z-index:2;
+    }
+
+    #D_cambiaPassw button{
+        position:relative;
+        z-index:2;
+    }
+
+}
+
+/******************MOBILE**************/
+
+@media  screen and (max-width: 600px) {
+
+    #imgLente{
+        left:2vh;
+        top:28vh;
+    }
+
+    #imgLibro{
+        left:2vh;
+        top:54vh;
+    }
+
+    #B_esci{
+        top:16vh;
+        left:2vh;
+        z-index:1;
+    }
+    
+    #B_cambiaPassw{
+        top:16vh;
+        right:2vh;
+        z-index:1;
+        font-size: 2vh;
+    }
+    
+    #B_info{
+        top:82vh;
+        left:3vh;
+        z-index:1;
+    }
+
+    #B_backup{
+        top:82vh;
+        right:3vh;
+        z-index:1;
+    }
+    
+    #B_cerca{
+        top:35vh;
+        right:6vh;
+        z-index:1;
+    }
+    
+    #B_aggiungi{
+        top:64vh;
+        right:3vh;
+        z-index:1;
+    }
+    
+    img{
+        position:absolute;
+        width:26vh;
+        z-index:1;
+    }
+    
+    #D_cambiaPassw{
+        width: 38vh;
+        padding: 2vh;
+        text-align: center;
+        border: 0.2vh solid black;
+        border-radius: 0.8vh;
+        background-color: rgb(235,235,235);
+        position: absolute;
+        top: 31vh;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index:2;
+    }
+    
+    #D_cambiaPassw input{
+        
+        font-size: 2.5vh;
+        z-index:2;
+    }
+    
+    #D_cambiaPassw label{
+        font-size:2.5vh;
+        font-weight: bold;
+    }
+    #D_cambiaPassw p{
+        margin:0;
+        padding:0;
+        z-index:2;
+    }
+    
+    #D_cambiaPassw button{
+        position:relative;
+        z-index:2;
+    }
+    
+
+
+
+}
